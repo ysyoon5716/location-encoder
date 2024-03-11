@@ -5,5 +5,5 @@ setup(
     version='1.0',
     author="Marc Rußwurm",
     author_email="marc.russwurm@wur.nl",
-    packages=find_packages(include=['locationencoder']),
+    packages=find_packages(include=['locationencoder', 'locationencoder.*']),
 )
